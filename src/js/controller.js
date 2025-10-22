@@ -146,6 +146,7 @@ const init = function () {
   RecipeView.addHandlerUpdateServings(controllServings);
   recipeview.addHandlerAddBookmark(controlAddBookmark);
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  console.log('!Welcome');
 };
 init();
 
